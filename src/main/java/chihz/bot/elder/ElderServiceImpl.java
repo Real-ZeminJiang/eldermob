@@ -35,7 +35,7 @@ public class ElderServiceImpl implements ElderService {
     }
 
     public Result<String> answerQuestion(String question) {
-        if ("董先森连任吼不吼啊".equals(question)) {
+        if ("董先森连任吼不吼啊" == question) {
             return Result.ok("吼啊");
         }
         return Result.badRequest("elder_angry", "无可奉告");
