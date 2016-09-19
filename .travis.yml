@@ -10,7 +10,7 @@ cache:
 install:
   - ./gradlew assemble
 script:
-  - ./gradlew build
+  - gradle build
 notifications:
   email:
     recipients:
