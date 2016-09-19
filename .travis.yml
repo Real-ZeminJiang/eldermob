@@ -8,7 +8,7 @@ cache:
     - $HOME/.gradle/caches/
     - $HOME/.gradle/wrapper/
 install:
-  - ./gradlew assemble
+  - gradle assemble
 script:
   - gradle build
 notifications:
