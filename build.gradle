@@ -16,6 +16,10 @@ findbugs {
     reportLevel = "high"
 }
 
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.5'
+}
+
 tasks.withType(FindBugs) {
     reports {
         xml.enabled false
