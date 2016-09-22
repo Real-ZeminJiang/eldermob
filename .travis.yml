@@ -1,6 +1,7 @@
 language: java
 jdk: oraclejdk8
 before_install:
+  - sudo add-apt-repository ppa:fkrull/deadsnakes
   - sudo apt-get update
   - sudo apt-get install python3.5
 before_cache:
@@ -15,7 +16,7 @@ install:
 script:
   - gradle build
 after_script:
-  - python ci/travis_collector.py
+  - python3.5 ci/travis_collector.py
 notifications:
   email:
     recipients:
