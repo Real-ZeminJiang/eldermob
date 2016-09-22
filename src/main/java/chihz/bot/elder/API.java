@@ -24,12 +24,11 @@ public class API {
         if (args.length >= 1) {
             port = Integer.valueOf(args[0]);
         }
-
-        ElderService elderService = new ElderServiceImpl();
-
         port(port); // mark web server port
 
         JsonTransformer jsonTransformer = new JsonTransformer();
+
+        ElderService elderService = new ElderServiceImpl();
 
         // controllers
 
