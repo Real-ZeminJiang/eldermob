@@ -29,13 +29,15 @@ public class API {
 
         port(port); // mark web server port
 
+        JsonTransformer jsonTransformer = new JsonTransformer();
+
         // controllers
 
         get(
                 "/v1/elder/inscription",
                 "application/json;charset=utf-8",
                 (req, res) -> elderService.giveInscription(),
-                new JsonTransformer()
+                jsonTransformer
         );
 
         post(
@@ -45,21 +47,21 @@ public class API {
                     JSONObject bodyObj = JSON.parseObject(req.body());
                     return elderService.answerQuestion(bodyObj.getString("question"));
                 },
-                new JsonTransformer()
+                jsonTransformer
         );
 
         get(
                 "/v1/elder/speak_english",
                 "application/json;charset=utf-8",
                 (req, res) -> elderService.speakEnglish(),
-                new JsonTransformer()
+                jsonTransformer
         );
 
         get(
                 "/v1/elder/three",
                 "application/json;charset=utf-8",
                 (req, res) -> elderService.three(),
-                new JsonTransformer()
+                jsonTransformer
         );
 
     }

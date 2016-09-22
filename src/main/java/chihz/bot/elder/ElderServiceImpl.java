@@ -9,14 +9,14 @@ import java.util.Random;
  */
 public class ElderServiceImpl implements ElderService {
 
-    private final String[] inscriptions = new String[] {
+    private static final String[] inscriptions = new String[] {
             "政治合格 军事过硬",
             "军队一律不得经商!",
             "Excited!",
             "闷声发大财"
     };
 
-    private final String[] englishSentences = new String[] {
+    private static final String[] englishSentences = new String[] {
             "too young",
             "too simple",
             "sometimes naive",
