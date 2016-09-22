@@ -10,8 +10,8 @@ S6. 回调TravisJob (如何确定当前的Flow instance id)
 
 from os import environ
 
-print("====================================================")
+print "===================================================="
 for var_name in ("TRAVIS_BRANCH", "TRAVIS_EVENT_TYPE",
                  "TRAVIS_TEST_RESULT", "TRAVIS_COMMIT",
                  "TRAVIS_COMMIT_RANGE"):
-    print("{} = {}".format(var_name, environ[var_name]))
+    print "{} = {}".format(var_name, environ[var_name])

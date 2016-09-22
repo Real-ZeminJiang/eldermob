@@ -15,7 +15,7 @@ install:
 script:
   - gradle build
 after_script:
-  - python3.5 ci/travis_collector.py
+  - python ci/travis_collector.py
 notifications:
   email:
     recipients:
