@@ -1,7 +1,8 @@
-language: java python
+language: java
 jdk: oraclejdk8
-python:
-  - "3.5"
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install python3.5
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
   - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
