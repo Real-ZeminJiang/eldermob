@@ -1,3 +1,4 @@
+# coding: utf-8
 """
 S1. 检查事件和分支：TRAVIS_BRANCH以及TRAVIS_EVENT_TYPE，通过TRAVIS_TEST_RESULT
 获取构建结果
