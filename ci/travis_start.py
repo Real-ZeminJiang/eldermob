@@ -8,6 +8,4 @@ import requests
 
 _TPL_NAME = "update_rest"
 
-
-def _get_instance_id():
-    pass
+pass

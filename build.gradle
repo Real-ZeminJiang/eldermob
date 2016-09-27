@@ -20,6 +20,18 @@ task wrapper(type: Wrapper) {
     gradleVersion = '2.5'
 }
 
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Implementation-Title': 'Gradle Jar File Example',
+            'Implementation-Version': version,
+            'Main-Class': 'chihz.bot.elder.API'
+    }
+    baseName = project.name + '-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+
+
 tasks.withType(FindBugs) {
     reports {
         xml.enabled false
