@@ -63,5 +63,12 @@ public class API {
                 jsonTransformer
         );
 
+        get(
+                "/v1/elder/err",
+                "application/json;charset=utf-8",
+                (req, res) -> elderService.throwErr(),
+                jsonTransformer
+        );
+
     }
 }

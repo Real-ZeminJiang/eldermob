@@ -46,6 +46,10 @@ public class ElderServiceImpl implements ElderService {
         return Result.ok(englishSentences[idx]);
     }
 
+    public Result<String> throwErr() {
+        throw new RuntimeException("蛤蛤");
+    }
+
     public Result<List<String>> three() {
         return Result.ok(Arrays.asList(
                 "始终代表中国先进生产力的发展要求",

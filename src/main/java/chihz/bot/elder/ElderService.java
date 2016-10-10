@@ -34,4 +34,10 @@ public interface ElderService {
      * @return
      */
     Result<List<String>> three();
+
+    /**
+     *
+     * @return
+     */
+    Result<String> throwErr();
 }
