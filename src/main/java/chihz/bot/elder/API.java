@@ -37,7 +37,7 @@ public class API {
                 "application/json;charset=utf-8",
                 (req, res) -> elderService.giveInscription(),
                 jsonTransformer
-        )
+        );
 
         post(
                 "/v1/elder/answer",
