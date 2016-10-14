@@ -14,6 +14,7 @@
   <li>见得多了！</li>
   <li>请州长夫人演唱！</li>
   <li>九八年的抗洪也是很大滴！</li>
+  <li>鸭嘴笔</li>
   <li>军队一律不得经商！</li>
   <li>engenering drawing</li>
   <li>x</li>
