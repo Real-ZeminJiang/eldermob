@@ -6,21 +6,4 @@
 
 <ul>
   <li>搞个大新闻</li>
-  <li>你们啊，Naive</li>
-  <li>我是身经百战了，见得多了</li>
-  <li>我不敢了哥</li>
-  <li>人呐，就都不知道</li>
-  <li>我是身经百战了</li>
-  <li>见得多了！</li>
-  <li>请州长夫人演唱！</li>
-  <li>九八年的抗洪也是很大滴！</li>
-  <li>鸭嘴笔</li>
-  <li>军队一律不得经商！</li>
-  <li>engenering drawing</li>
-  <li>x</li>
-  <li>yyyy</li>
-  <li>zzzz</li>
-  <li>始终代表广大人民的根本利益</li>
-  <li>始终代表最先进的生产力</li>
-  <li>始终代表最先进的文化</li>
 </ul>
