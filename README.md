@@ -20,4 +20,5 @@
   <li>x</li>
   <li>yyyy</li>
   <li>zzzz</li>
+  <li>始终代表广大人民的根本利益</li>
 </ul>
