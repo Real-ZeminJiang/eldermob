@@ -10,5 +10,4 @@
   <li>闷声发大财X</li>
   <li>x</li>
   <li>毕竟还too young</li>
-  <li>yyyy</li>
 </ul>
