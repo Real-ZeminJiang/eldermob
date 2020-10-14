@@ -7,12 +7,8 @@
 <ul>
   <li>搞个大新闻</li>
   <li>闷声发大财</li>
-  <li>闷声发大财X</li>
-  <li>x</li>
+  <li></li>
+  <li>Naive</li>
   <li>毕竟还too young</li>
-  <li>yyyy</li>
-  <li>zzzz</li>
-  <li>Function A</li>
-  <li>ooxx</li>
-  <li>xxoo</li>
+  <li>吼啊</li>
 </ul>
